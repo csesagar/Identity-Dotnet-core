@@ -70,7 +70,7 @@ namespace WebApplication1.Controllers
                     }
                     else
                     {
-                        return LocalRedirect(returnUrl);
+                        return LocalRedirect(returnUrl);   // connot allow remote redirect for safety we use it 
                     }
                     
                 }
